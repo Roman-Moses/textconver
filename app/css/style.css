@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, rgb(77, 77, 7), rgba(3, 204, 3, 0.363))  ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+.hero h1 span{
+    color:#ff2963;
+}
+textarea{
+    width: 40%;
+    height: 250px;
+    background-color:rgb(77, 77, 7) ;
+    color: aliceblue;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+}
+button{
+    padding: 5px 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    background: linear-gradient(#ff2963 , rgb(255, 61, 27));
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+select{
+    flex: 1;
+    background-color: #ff2963;
+    padding: 0 20px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    appearance: none;
+
+}
